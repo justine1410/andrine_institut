@@ -32,7 +32,7 @@ main{
         margin-right: auto;
         font-weight: 100;
         .soin{
-            background-color: #E5CBD3;
+            background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
             margin-bottom: 20px;
             padding: 5px;
             border-radius: 20px;
@@ -67,7 +67,7 @@ main{
 }
 
 footer{
-    background-color: $color1;
+    background:$color1;
     margin-bottom: 0;
     margin-top: 50px;
     height: 120px;

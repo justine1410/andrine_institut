@@ -75,6 +75,12 @@ main ul {
   margin-top: 80px;
   text-align: center;
   font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 5px;
+  border-radius: 20px;
 }
 main ul a {
   color: black;
@@ -229,7 +235,7 @@ main .choix {
   font-weight: 100;
 }
 main .choix .soin {
-  background-color: #E5CBD3;
+  background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
   margin-bottom: 20px;
   padding: 5px;
   border-radius: 20px;
@@ -259,7 +265,7 @@ main .choix .choix_soin .choix p {
 }
 
 footer {
-  background-color: #8e254e;
+  background: #8e254e;
   margin-bottom: 0;
   margin-top: 50px;
   height: 120px;
@@ -363,7 +369,7 @@ main .choix {
   width: 100%;
 }
 main .choix .epilation {
-  background-color: #E5CBD3;
+  background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 20px;
