@@ -1,5 +1,5 @@
 $color1 :#8e254e;
-$colorFond: #E5CBD3;
+$colorFond: #f99ef2;
 
 $font1:'Niconne', cursive;
 $font2:'Times New Roman', Times, serif;
@@ -15,5 +15,17 @@ h1, h2,h3{
     font-family: $font1;
     font-size: 40px;
 }
+
+@keyframes transform {
+    0%{
+      transform: scale(0);
+    }
+    
+    100%{
+      transform: scale(1);
+    }
+
+  }
+
 
 

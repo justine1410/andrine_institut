@@ -9,6 +9,14 @@ h1, h2, h3 {
   font-size: 40px;
 }
 
+@keyframes transform {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 header {
   display: flex;
   flex-direction: column;
@@ -82,6 +90,9 @@ main ul {
   padding: 5px;
   border-radius: 20px;
 }
+main ul .menu {
+  animation: transform 2.5s;
+}
 main ul a {
   color: black;
   text-decoration: none;
@@ -94,7 +105,7 @@ main ul .menu:hover {
 }
 
 .index {
-  background-color: #8e254e;
+  background: linear-gradient(120deg, #8e254e, #e5dcf1 85%);
   margin-bottom: 0;
   margin-top: 50px;
   height: 120px;
@@ -117,26 +128,25 @@ main ul .menu:hover {
 .index ul li {
   width: 30%;
   text-align: center;
-  color: #fff;
 }
 .index ul li:hover {
   transform: scale(1.2);
 }
-.index ul li:hover:hover {
-  color: #f5b5f3;
-}
-.index ul a {
+.index a {
   text-decoration: none;
-  color: #fff;
+  color: black;
   margin-right: 5px;
   font-size: 25px;
 }
-.index ul .reseaux {
+.index a:hover {
+  color: #5C2D40;
+}
+.index a .reseaux {
   display: flex;
   justify-content: space-evenly;
   width: 30%;
 }
-.index ul .reseaux a {
+.index a .reseaux a {
   font-size: 40px;
 }
 
@@ -227,6 +237,9 @@ header p {
   text-align: center;
 }
 
+main li {
+  animation: transform 2.5s ease forwards;
+}
 main .choix {
   display: flex;
   flex-direction: column;
@@ -235,7 +248,7 @@ main .choix {
   font-weight: 100;
 }
 main .choix .soin {
-  background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
+  background-image: radial-gradient(#e5dcf1 0%, transparent 50%, #f99ef2);
   margin-bottom: 20px;
   padding: 5px;
   border-radius: 20px;
@@ -265,7 +278,7 @@ main .choix .choix_soin .choix p {
 }
 
 footer {
-  background: #8e254e;
+  background-color: #8e254e;
   margin-bottom: 0;
   margin-top: 50px;
   height: 120px;
@@ -369,7 +382,7 @@ main .choix {
   width: 100%;
 }
 main .choix .epilation {
-  background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
+  background-image: radial-gradient(#e5dcf1 0%, transparent 50%, #f99ef2);
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 20px;

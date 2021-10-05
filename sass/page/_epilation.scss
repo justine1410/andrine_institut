@@ -5,7 +5,7 @@ main{
         align-items: center;
         width: 100%;
         .epilation{
-            background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
+            background-image: radial-gradient(#e5dcf1 0%, transparent 50%, $colorFond);
             margin-bottom: 20px;
             padding: 10px;
             border-radius: 20px;
