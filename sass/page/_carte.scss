@@ -71,7 +71,7 @@ main{
 }
 
 footer{
-    background-color: $color1;
+    background: linear-gradient(120deg, $color1, #e5dcf1 85%);
     margin-bottom: 0;
     margin-top: 50px;
     height: 120px;
@@ -91,19 +91,19 @@ footer{
         li{
             width: 30%;
             text-align: center;
-            color: #fff;
             &:hover{
                 transform: scale(1.2);
-                &:hover{
-                 color: #f5b5f3;
-             }
+               
             }
         }
         a{
             text-decoration: none;
-            color: #fff;
+            color: black;
             margin-right: 5px;
             font-size: 25px;
+            &:hover{
+                color: #5C2D40;
+            }
         }
         .reseaux{
             display: flex;
