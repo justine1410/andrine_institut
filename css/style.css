@@ -1,8 +1,7 @@
 body {
   margin: auto;
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
 h1, h2, h3 {
@@ -75,6 +74,7 @@ main ul {
   margin-right: 400px;
   margin-top: 80px;
   text-align: center;
+  font-size: 25px;
 }
 main ul a {
   color: black;
@@ -82,6 +82,9 @@ main ul a {
 }
 main ul a:hover {
   color: #8e254e;
+}
+main ul .menu:hover {
+  transform: scale(1.2);
 }
 
 .index {
@@ -106,22 +109,29 @@ main ul a:hover {
   padding-left: 0;
 }
 .index ul li {
-  width: 50%;
+  width: 30%;
   text-align: center;
   color: #fff;
+}
+.index ul li:hover {
+  transform: scale(1.2);
+}
+.index ul li:hover:hover {
+  color: #f5b5f3;
 }
 .index ul a {
   text-decoration: none;
   color: #fff;
   margin-right: 5px;
-  font-size: 30px;
-}
-.index ul a:hover {
-  color: #f5b5f3;
+  font-size: 25px;
 }
 .index ul .reseaux {
   display: flex;
   justify-content: space-evenly;
+  width: 30%;
+}
+.index ul .reseaux a {
+  font-size: 40px;
 }
 
 /* mobile */
@@ -272,18 +282,25 @@ footer ul li {
   text-align: center;
   color: #fff;
 }
+footer ul li:hover {
+  transform: scale(1.2);
+}
+footer ul li:hover:hover {
+  color: #f5b5f3;
+}
 footer ul a {
   text-decoration: none;
   color: #fff;
   margin-right: 5px;
-  font-size: 30px;
-}
-footer ul a:hover {
-  color: #f5b5f3;
+  font-size: 25px;
 }
 footer ul .reseaux {
   display: flex;
   justify-content: space-evenly;
+  width: 30%;
+}
+footer ul .reseaux a {
+  font-size: 40px;
 }
 
 /* mobile */
