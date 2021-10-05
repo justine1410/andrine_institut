@@ -126,6 +126,16 @@ main ul a:hover {
 /* grand ecran */
 header a {
   text-decoration: none;
+  display: flex;
+  align-items: baseline;
+  margin-top: 10px;
+}
+header a i {
+  margin-right: 10px;
+  color: #8e254e;
+}
+header a:hover {
+  transform: scale(1.2);
 }
 header h3 {
   font-weight: 100;

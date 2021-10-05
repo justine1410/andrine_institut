@@ -1,6 +1,16 @@
 header{
     a{
         text-decoration: none;  
+        display: flex;
+        align-items: baseline;
+        margin-top: 10px;
+        i{
+            margin-right: 10px;
+            color: $color1;
+        }
+        &:hover{
+            transform: scale(1.2);
+        }
     }
     h3{
     font-weight: 100;
