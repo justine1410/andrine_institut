@@ -30,7 +30,7 @@ main{
             border-radius: 20px;
         }
         .horaire{
-            background-color: $colorFond;
+            background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
             border-radius: 20px;
             padding: 10px;
             text-align: center;
@@ -39,7 +39,7 @@ main{
             }
         }
         .tel{
-            background-color: $colorFond;
+            background: linear-gradient(120deg, #f99ef2, #e5dcf1 75%);
             border-radius: 20px;
             margin-top: 30px;;
             padding: 10px;
