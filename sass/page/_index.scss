@@ -20,6 +20,42 @@ main{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    .map{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        iframe{
+            border-radius: 20px;
+        }
+        .horaire{
+            background-color: $colorFond;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: center;
+            h3,p{
+                margin: 0;
+            }
+        }
+        .tel{
+            background-color: $colorFond;
+            border-radius: 20px;
+            margin-top: 30px;;
+            padding: 10px;
+            text-align: center;
+            h3{
+                margin: 0;
+            }
+            p{
+                margin: 5px;
+                a{
+                    text-decoration: none;
+                    color: $color1;
+                }
+            }
+        }
+    }
     ul{
         list-style: none;
         margin-right: 400px;
@@ -49,7 +85,6 @@ main{
     bottom: 0;
     font-size: 20px;
 
-    
    ul{
        display: flex;
        justify-content: space-evenly;
@@ -58,18 +93,26 @@ main{
        list-style: none;
        padding-left: 0;
        li{
-           width: 30%;
+           width: 50%;
            text-align: center;
            color: #fff;
 
        }
-       .reseaux a{
+       a{
+           text-decoration: none;
            color: #fff;
            margin-right: 5px;
+           font-size: 30px;
+           
            &:hover{
                color: #f5b5f3;
            }
        }
+       .reseaux{
+           display: flex;
+           justify-content: space-evenly;
+       }
+       
       
 
    }
@@ -91,14 +134,27 @@ main{
             margin-top: 20px;
             padding: 0;
         }
+        .map{
+            flex-direction: column;
+            iframe{
+                width: 90%;
+            }
+            .contact{
+                margin-top: 20px;
+                width: 90%;
+                font-size: 20px;
+            }
+
+        }
+    
     }
     .index{
         position: initial;
-        height: 300px;
+        height: 200px;
         margin-top: 20px;
         ul{
             flex-direction: column;
-            height: 250px;
+            height: 200px;
             li{
                 width: 100%;
             }
@@ -113,6 +169,18 @@ main{
             margin-right:inherit;
             margin-top: 20px;
             padding: 0;
+        }
+        .map{
+            flex-direction: column;
+            iframe{
+                width: 90%;
+            }
+            .contact{
+                margin-top: 20px;
+                width: 90%;
+                font-size: 20px;
+            }
+
         }
     }
   }
