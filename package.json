@@ -1,0 +1,18 @@
+{
+  "name": "andrine_institut",
+  "version": "1.0.0",
+  "description": "site andrine institut de beauté",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "keywords": [
+    "institut",
+    "beauté"
+  ],
+  "author": "fidel justine",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.42.1"
+  }
+}
