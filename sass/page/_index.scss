@@ -61,7 +61,6 @@ main{
         margin-right: 400px;
         margin-top: 80px;
         text-align: center;
-        font-size: 25px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -74,6 +73,9 @@ main{
         a{
             color: black;
             text-decoration: none;
+            li{
+                margin: 5px;
+            }
         }
         a:hover{
             color: $color1;
@@ -170,6 +172,7 @@ main{
     }
     .index{
         height: 200px;
+        position: relative;
         ul{
             flex-direction: column;
             height: 200px;
@@ -181,12 +184,24 @@ main{
   }
   
   @media screen and (min-width:750px) and (max-width:1050px){
+      body{
+        font-size: 50px;
+      }
     main{
         align-items: center;
+        margin-top: 20%;
+
         ul{
             margin-right:inherit;
             margin-top: 20px;
             padding: 0;
+            width: 100%;
+            a{
+                font-size: 50px;
+                li{
+                    margin: 5px;
+                }
+            }
         }
         .map{
             flex-direction: column;
@@ -201,9 +216,26 @@ main{
 
         }
     }
+
   }
   /* grand ecran */
   @media screen and (min-width:850px) and (max-width:1400px){
-    
+    body{
+        font-size: 50px;
+      }
+    main{
+        ul{
+            width: initial;
+            a{
+                font-size: 50px;
+                li{
+                    margin: 5px;
+  
+                }
+            }
+        }
+  
+
+    }
   }
   
