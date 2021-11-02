@@ -162,6 +162,7 @@ main ul .menu:hover {
   main {
     align-items: center;
     height: 100%;
+    margin-top: 20%;
   }
   main ul {
     margin-right: inherit;
@@ -181,9 +182,7 @@ main ul .menu:hover {
   }
 
   .index {
-    position: relative;
     height: 200px;
-    margin-top: 10%;
   }
   .index ul {
     flex-direction: column;
