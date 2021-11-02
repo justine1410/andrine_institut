@@ -147,6 +147,7 @@ main{
     }
     main{
         align-items: center;
+        height: 100%;
         ul{
             margin-right:inherit;
             margin-top: 20px;
@@ -167,9 +168,9 @@ main{
     
     }
     .index{
-        position: initial;
+        position: relative;
         height: 200px;
-        margin-top: 20px;
+        margin-top: 10%;
         ul{
             flex-direction: column;
             height: 200px;
